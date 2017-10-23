@@ -1,3 +1,13 @@
-h1 {
+.title{
+	font-size: 200px;
 	color: purple;
+	text-align: center;
 }
+
+.box { 
+	height: 400px;
+	width: 400px; 
+	float: left;
+	margin: 10px;
+	background-color: red;
+ }
