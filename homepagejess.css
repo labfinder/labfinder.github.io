@@ -1,0 +1,227 @@
+<style>
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+area, area:hover, area:active {
+  outline: none; 
+}
+
+.qtip-purr .qtip-content{
+    font-size: 16px!important;
+    color: white!important;
+    font-weight: bold!important;
+    font-family: 'Open Sans'!important;
+    text-align: center;
+}
+
+.qtip-purr {
+    background-color: #9400D3!important;
+    border-color: white!important;
+    border-width: 1px!important;
+    padding: 5px 10px!important;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 6px;
+  padding-bottom: 5px;
+  min-height: 540px;
+  overflow: hidden;
+}
+
+.floatright50 {
+  float: right!important;
+  width: 50%!important;
+  }
+
+.column100 {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 6px;
+  padding-bottom: 5px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.floatleft50 {
+  float: left!important;
+  width: 50%!important;
+}
+
+h3{
+  font-family: Calibri!important;
+}
+
+
+h2{
+  font-size: 22px!important;
+  font-family: Calibri!important;
+}
+
+
+p {
+  font-size: 18px !important;
+  font-family: Calibri!important;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+}
+
+.profilesm {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  min-height: 550px;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5px;
+  display: inline-block;
+  perspective: 1110px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.cardsm {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  min-height: 350px;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.container {
+  padding: 0 14px;
+  width: 100%;
+  display: inline-block;
+  min-height: 100px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container h, p {
+width:95%;
+}
+
+      .front, .back {
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        height: 100%; width: 100%;
+       -webkit-transition: all 0.5s ease-out;
+       -moz-transition: all 0.5s ease-out;
+       -ms-transition: all 0.5s ease-out;
+       -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+      }
+
+      .front h2, .front p, .back p{
+        width: 95%;
+      }
+
+      .front {
+        position: absolute;
+        transform: rotateY(0deg);
+        z-index: 0;
+      }
+
+      .back {
+        position: absolute;
+        transform: rotateY(-180deg);
+        z-index: 0;
+      }
+
+.title {
+  color: grey;
+}
+
+
+#marcbio, #rossbio, #willbio, #nickbio, #jonbio, #adambio {
+    position: relative;
+    float: right;
+    display:none;
+    background: #efd4ff!important;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .column {
+    width: 50%;
+    display: block;
+  }
+
+  .column100 {
+    width: 33%!important;
+  }
+
+  .card {
+    display: inline-block;
+  }
+
+  .profile {
+    width: 100%;
+    height: auto;
+  }
+
+  .profilesm {
+    width: 100%!important;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .container p {
+    width: 95%!important;
+  }
+
+  .floatleft50 {
+    float: left!important;
+    clear: both!important;
+    width: 100%!important;
+  }
+
+  .floatright50 {
+    clear: both!important;
+    width: 100%!important;
+  }
+
+  .clearfix {
+    overflow: auto!important;
+  }
+
+#marcbio, #rossbio, #willbio, #nickbio, #jonbio, #adambio {
+    position: relative;
+    float: right;
+    display:none;
+    background: #efd4ff!important;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+}
+
+</style>
