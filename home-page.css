@@ -5,11 +5,14 @@ background-image {
 
 }
 
-header {
+.jumbotron {
     text-align: center;
     background: url('https://imgur.com/YmVSIQg.png');
     background-size: cover;
     color: white;
+    font-size: 200px;
+    font-style: cambria;
+
 }
 
 a {
