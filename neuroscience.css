@@ -1,9 +1,50 @@
-header{
-	text-align: center;
-	background: url('https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiNm9LN4KrXAhVIWxQKHZ3mBZcQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F277886239486758721%2F&psig=AOvVaw1VQRxELLwf_0y0VpVk6SyJ&ust=1510085370952880');
-	background-size: cover;
-	height: 150px;
-	color: white;
-	font-size: 300px;
+.jumbotron {
+    text-align: center;
+    background: url('https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiNm9LN4KrXAhVIWxQKHZ3mBZcQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F277886239486758721%2F&psig=AOvVaw1VQRxELLwf_0y0VpVk6SyJ&ust=1510085370952880');
+    background-size: cover;
+    color: white;
+    font-size: 200px;
+    font-style: cambria;
 
- }
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+}
+
+ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+}
