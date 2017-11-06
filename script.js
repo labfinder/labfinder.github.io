@@ -1,5 +1,5 @@
 $(document).ready(function(){ 
-	var button = $("#submit"); 
+	var button = $("#signup"); 
 
 	button.on('click', function(){
 
@@ -7,6 +7,6 @@ $(document).ready(function(){
 
 		console.log("Click detected on: " + $this)
 
-		button.html("Submitted");
+		button.html("Check your emails!");
 	})
 })

@@ -1,9 +1,7 @@
-header{
+.jumbotron{
 	text-align: center;
 	background: url('https://aos.iacpublishinglabs.com/question/aq/1400px-788px/_20141106-182407-6276.jpg?domain=cx.aos.ask.com');
 	background-size: cover;
 	height: 150px;
 	color: white;
-	font-size: 300px;
-
  }
