@@ -44,10 +44,14 @@ body {
 
 
 .title {
-    font-weight: 400px;
+    font-size: 150px;
     color: white;
     font-family: "Courier New", Monospace;
     font-style: italic;
+    position: center;
+ }
+
+ .form-group {
     position: center;
  }
 
