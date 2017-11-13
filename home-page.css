@@ -5,10 +5,25 @@ background-image {
 
 }
 
+body {
+    background-image: : url('https://imgur.com/YmVSIQg.png');
+    background-size: cover;
+}
 
-body{ 
-background-image: url('https://imgur.com/YmVSIQg.png')
-background-size: cover;
+
+.title {
+    font-size: 150px;
+    color: white;
+    font-family: "Courier New", Monospace;
+    font-style: italic;
+    position: center;
+    padding-top: 100px;
+    padding-left: 250px;
+ }
+
+
+ .form-group {
+    position: center;
  }
 
 
