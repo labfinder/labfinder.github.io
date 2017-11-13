@@ -5,12 +5,12 @@ background-image {
 
 }
 
-.jumbotron {
-    text-align: center;
-    background: url('https://imgur.com/YmVSIQg.png');
+body {
+    /*text-align: center;*/
+    background-image: : url('https://imgur.com/YmVSIQg.png');
     background-size: cover;
-    color: white;
-    height: 500px;
+    /*color: white;
+    height: 500px;*/
     
 
 }
