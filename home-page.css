@@ -10,9 +10,8 @@ background-image {
     background: url('https://imgur.com/YmVSIQg.png');
     background-size: cover;
     color: white;
-    font-size: 200px;
-    font-style: italic;
-    font: 50px arial, sans-serif italic;
+    height: 500px;
+    
 
 }
 
@@ -45,7 +44,11 @@ background-image {
 
 
 .title {
-    font-size: 300px;
+    font-weight: 400px;
+    color: white;
+    font-family: "Courier New", Monospace;
+    font-style: italic;
+    position: center;
  }
 
 
