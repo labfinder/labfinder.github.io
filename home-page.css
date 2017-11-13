@@ -6,40 +6,8 @@ background-image {
 }
 
 body {
-    /*text-align: center;*/
     background-image: : url('https://imgur.com/YmVSIQg.png');
     background-size: cover;
-    /*color: white;
-    height: 500px;*/
-    
-
-}
-
-.dropdown { 
-    float: right;
-    overflow: hidden;
- }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  /*text-align: left;*/
-}
-
-.dropdown: hover .dropdown-content {
-  display: block;
 }
 
 
@@ -49,6 +17,8 @@ body {
     font-family: "Courier New", Monospace;
     font-style: italic;
     position: center;
+    padding-top: 100px;
+    padding-left: 250px;
  }
 
  .form-group {
@@ -57,7 +27,7 @@ body {
 
 
 ul {
-    padding: 10px;
+    padding: 0px;
     background: rgba(0,0,0,0.5);
 }
 
