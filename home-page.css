@@ -10,6 +10,9 @@ body {
     background-size: cover;
 }
 
+.item{ 
+
+ }
 
 .title {
     font-size: 150px;
@@ -21,10 +24,6 @@ body {
     padding-left: 250px;
  }
 
-
- .form-group {
-    position: center;
- }
 
 
 ul {
@@ -41,6 +40,29 @@ article {
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
+}
+
+div.item {
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 300px;
+  padding-right: 70px;
+  color: ;
+}
+
+h1 { 
+    text-align: center;
+    color: white;
+ }
+
+.carousel-inner {
+color: white;
+height: 400px;
+font-family: 'Arsenal', sans-serif;
+}
+
+.carousel-indicators {
+  height: 0px;
 }
 
 @media (max-width: 500px) {
