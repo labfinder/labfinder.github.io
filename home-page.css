@@ -51,6 +51,10 @@ background-image {
     position: center;
  }
 
+ .form-group {
+    position: center;
+ }
+
 
 ul {
     padding: 10px;
