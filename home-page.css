@@ -11,14 +11,44 @@ background-image {
     background-size: cover;
     color: white;
     font-size: 200px;
-    font: center;
-    font-style: cambria;
+    font-style: italic;
+    font: 50px arial, sans-serif italic;
 
 }
 
-a {
-    color: white;
+.dropdown { 
+    float: right;
+    overflow: hidden;
+ }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  /*text-align: left;*/
+}
+
+.dropdown: hover .dropdown-content {
+  display: block;
+}
+
+
+.title {
+    font-size: 300px;
+ }
+
+
 
 h1 {
     font-size: 70px;

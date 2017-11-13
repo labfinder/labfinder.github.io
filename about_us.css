@@ -1,0 +1,7 @@
+.jumbotron{
+	text-align: center;
+	background: url('http://paulshorelab.org/wp-content/uploads/IMG_40182.jpg');
+	background-size: cover;
+	height: 800px;
+	color: white;
+ }
