@@ -1,4 +1,7 @@
 
+.item{ 
+
+ }
 
 .title{ 
     font-size: 150px;
@@ -12,6 +15,7 @@
  }
 
 
+<<<<<<< HEAD
 
  .bg {
     background-image: url("https://imgur.com/YmVSIQg.png")
@@ -21,6 +25,8 @@
     background-size: cover;
  }
 
+=======
+>>>>>>> baf6006b3d7beb45df092a07b8370ff12e2f3f99
 
 
 ul {
@@ -37,6 +43,29 @@ article {
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
+}
+
+div.item {
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 300px;
+  padding-right: 70px;
+  color: ;
+}
+
+h1 { 
+    text-align: center;
+    color: white;
+ }
+
+.carousel-inner {
+color: white;
+height: 400px;
+font-family: 'Arsenal', sans-serif;
+}
+
+.carousel-indicators {
+  height: 0px;
 }
 
 @media (max-width: 500px) {
