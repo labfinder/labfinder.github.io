@@ -17,7 +17,7 @@ body {
 .title {
     font-size: 150px;
     color: white;
-    font-family: "Courier New", Monospace;
+    font-family: "Courier New";
     font-style: italic;
     position: center;
     padding-top: 100px;
@@ -47,25 +47,29 @@ div.item {
   padding-top: 10px;
   padding-bottom: 300px;
   padding-right: 70px;
-  color: ;
 }
 
-h1 { 
+a { 
     text-align: center;
     color: white;
+    font-family: "Times New Roman";
+ }
+
+ h1{
+    text-align: center;
  }
 
 .carousel-inner {
-color: white;
+/*color: white;*/
 height: 400px;
-font-family: 'Arsenal', sans-serif;
+/*font-family: 'Arsenal', sans-serif;*/
 }
 
 .carousel-indicators {
   height: 0px;
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
     h1 {
         font-size: 36px;
     }
@@ -74,4 +78,4 @@ font-family: 'Arsenal', sans-serif;
         display: block;
         padding: 5px;
     }
-}
+}*/
