@@ -1,7 +1,24 @@
 .jumbotron{
-	text-align: center;
-	background: url('https://aos.iacpublishinglabs.com/question/aq/1400px-788px/_20141106-182407-6276.jpg?domain=cx.aos.ask.com');
+	background: url('https://microscopy.stanford.edu/sites/default/files/test.png');
 	background-size: cover;
 	height: 220px;
 	color: white;
+	text-align: center;
  }
+
+ h2{
+    font-size: 30px;
+    
+
+}
+
+
+ul {
+    padding: 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}

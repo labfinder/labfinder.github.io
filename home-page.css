@@ -1,20 +1,9 @@
-background-image {
-    width: 400px;
-    background: url();
-    background-size: center;
-
-}
-
-body {
-    background-image: : url('https://imgur.com/YmVSIQg.png');
-    background-size: cover;
-}
 
 .item{ 
 
  }
 
-.title {
+.title{ 
     font-size: 150px;
     color: white;
     font-family: "Courier New";
@@ -22,6 +11,16 @@ body {
     position: center;
     padding-top: 100px;
     padding-left: 250px;
+
+ }
+
+
+ .bg {
+    background-image: url("https://imgur.com/YmVSIQg.png")
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
 

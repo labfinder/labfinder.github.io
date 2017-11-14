@@ -1,7 +1,50 @@
-.jumbotron{
-	text-align: center;
-	background: url('http://paulshorelab.org/wp-content/uploads/IMG_40182.jpg');
+html{
+	background: url(http://paulshorelab.org/wp-content/uploads/IMG_40181.jpg);
 	background-size: cover;
-	height: 800px;
+	background-position: center;
+	background-size: 100%;
+}
+
+.jumbotron {
+  background: rgba(200, 54, 54, 0.5); 
+
+}
+
+.transbox {
+  background-color: #000000;
+  opacity: 0.6;
+  
+}
+
+
+
+h2{
+	padding-top: 100px;
+	text-align: center;
 	color: white;
+}
+
+h4{
+	text-align: center;
+	color:white;
+}
+
+h5{ 
+    text-align: center;
+    color: white;
  }
+
+ul {
+    padding: 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
