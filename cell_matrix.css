@@ -62,7 +62,7 @@ p {
 }
 
 .description {
-    padding: 60px 100px 60px 250px;
+    padding: 70px 100px 70px 250px;
 }
 
 .round {
@@ -74,4 +74,10 @@ figure {
 	float:left;
 	padding: 30px 100px 30px 50px;
 
+}
+
+.indexlink {
+	text-align: center;
+    display: block;
+    margin: 0 auto;
 }
