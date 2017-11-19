@@ -86,7 +86,10 @@ p {
 .round {
   border: solid 1px transparent;
   border-radius: 400px;
+ 
 }
+
+
 
 figure {
 	float:left;
