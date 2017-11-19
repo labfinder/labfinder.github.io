@@ -3,11 +3,10 @@
 	background-size: cover;
 	height: 200px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	position:fixed;
 	width:100%;
  }
-
 
 html, body {
   margin: 0px!important;
@@ -34,6 +33,7 @@ html, body {
   text-justify: inter-word
   padding: 0px 5vw; 
   border: 3px solid transparent;
+  
 }
 
 h4 {
