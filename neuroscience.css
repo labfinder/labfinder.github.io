@@ -41,10 +41,15 @@ p {
 }
 
 .description {
-    padding: 25px 50px 75px 100px;
+    padding: 0px 100px 0px 250px;
 }
 
 .round {
   border: solid 1px transparent;
   border-radius: 400px;
+}
+
+figure {
+	float:left;
+	padding: 0px 100px 0px 50px;
 }
