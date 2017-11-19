@@ -16,3 +16,41 @@ li {
     display: inline;
     padding: 0px 10px 0px 10px;
 }
+
+
+html, body {
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+.plan p {
+  text-align: justify;
+  text-justify: inter-word
+}
+
+h4 {
+  font-size: 35px!important;
+  font-weight: 400;
+  font-family: 'Calibri'!important;
+  padding: 2%!important;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px!important;
+  font-weight: 400;
+  font-family: 'Calibri'!important;
+  padding: 2%!important;
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Calibri', sans-serif;
+}
+
+.round {
+  border: solid 1px transparent;
+  border-radius: 400px;
+}
