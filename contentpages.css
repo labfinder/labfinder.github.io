@@ -79,7 +79,7 @@ p {
  }
 
 .description {
-    padding: 70px 100px 70px 250px;
+    padding: 70px 100px 70px 350px;
     color: black;
 }
 
@@ -90,10 +90,9 @@ p {
 }
 
 
-
 figure {
 	float:left;
-	padding: 30px 100px 30px 50px;
+	padding: 30px 100px 30px 150px;
 
 }
 
@@ -115,4 +114,12 @@ figure {
 
 body {
     background-color: #F4ECF7;
+ }
+
+hr {
+  border: 0;
+  width: 80%;
+  color: black;
+  background-color: black;
+  height: 3px
  }
