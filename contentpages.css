@@ -86,7 +86,10 @@ p {
 .round {
   border: solid 1px transparent;
   border-radius: 400px;
+ 
 }
+
+
 
 figure {
 	float:left;
@@ -98,4 +101,8 @@ figure {
 	text-align: center;
     display: block;
     margin: 0 auto;
+}
+
+.row {
+  padding: 50px 0px 0px 0px;
 }
