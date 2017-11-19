@@ -6,8 +6,7 @@
 .title{ 
     font-size: 150px;
     color: white;
-    font-family: "Courier New";
-    font-style: italic;
+    font-family: "Calibri";
     position: center;
     padding-top: 100px;
     padding-left: 250px;
@@ -24,6 +23,11 @@
  }
 
 
+
+html, body {
+  margin: 0px!important;
+  padding: 0px!important;
+}
 
 ul {
     padding: 0px;
@@ -48,12 +52,6 @@ div.item {
   padding-right: 70px;
 }
 
-a { 
-    text-align: center;
-    color: white;
-    font-family: "Times New Roman";
- }
-
  h1{
     text-align: center;
  }
@@ -68,13 +66,3 @@ height: 400px;
   height: 0px;
 }
 
-/*@media (max-width: 500px) {
-    h1 {
-        font-size: 36px;
-    }
-
-    li {
-        display: block;
-        padding: 5px;
-    }
-}*/

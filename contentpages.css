@@ -106,3 +106,8 @@ figure {
 .row {
   padding: 50px 0px 0px 0px;
 }
+
+.researchers {
+  background-color: white;
+  opacity: 0.5;
+}
