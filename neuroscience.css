@@ -40,6 +40,10 @@ p {
   font-family: 'Calibri', sans-serif;
 }
 
+.description {
+    padding: 25px 50px 75px 100px;
+}
+
 .round {
   border: solid 1px transparent;
   border-radius: 400px;
