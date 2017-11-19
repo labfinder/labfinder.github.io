@@ -1,26 +1,12 @@
 .jumbotron{
-  background-size: cover;
+	background: url('https://i.pinimg.com/736x/21/3d/07/213d0753ff4223601f422a61d52e6568--confocal-microscopy-bone-marrow.jpg');
+	background-size: cover;
 	height: 200px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	position:fixed;
 	width:100%;
  }
-
-<<<<<<< HEAD
-=======
-.jumbotron, neuroscience{ 
-  background: url('https://gsbs.uth.edu/global/img/headers/neuro.jpg');
-}
-
-.jumbotron, cellmatrix{ 
-  background: url('https://i.pinimg.com/736x/21/3d/07/213d0753ff4223601f422a61d52e6568--confocal-microscopy-bone-marrow.jpg');
-}
-
-.jumbotron, evolutionary{ 
-  background: url('http://health.usf.edu/~/media/Images/Public%20Health/Global%20Health/GHIDR/Genomics/genomics-banner.ashx?h=300&w=800&hash=450EE5981F78F2D53BEF26F3A763E36C866A8262');
-}
->>>>>>> 0f35d6717345194d4dd2a2b418ab0a47a890dc28
 
 html, body {
   margin: 0px!important;
@@ -47,6 +33,7 @@ html, body {
   text-justify: inter-word
   padding: 0px 5vw; 
   border: 3px solid transparent;
+  
 }
 
 h4 {
