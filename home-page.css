@@ -1,25 +1,19 @@
-
-.item{ 
-
- }
-
-.title{ 
-    font-size: 150px;
-    color: white;
+h2{ 
+    font-size: 100px;
+    color: black;
     font-family: "Calibri";
-    position: center;
     padding-top: 100px;
-    padding-left: 250px;
+    text-align: center;
 
  }
 
+h1{
+      text-align: center;
+      color: #F4ECF7;
+}
 
- .bg {
-    background-image: url("https://imgur.com/YmVSIQg.png")
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background-color: #F4ECF7;
  }
 
 
@@ -45,24 +39,22 @@ article {
     margin: 0 auto;
 }
 
-div.item {
+.item {
   padding-left: 70px;
   padding-top: 10px;
   padding-bottom: 300px;
   padding-right: 70px;
 }
 
- h1{
-    text-align: center;
- }
-
 .carousel-inner {
-/*color: white;*/
-height: 400px;
-/*font-family: 'Arsenal', sans-serif;*/
+  color: #F4ECF7;
+  height: 400px;
 }
 
 .carousel-indicators {
   height: 0px;
 }
 
+.container {
+  background-color: white;
+}
