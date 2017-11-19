@@ -41,7 +41,7 @@ p {
 }
 
 .description {
-    padding: 30px 150px 30px 250px;
+    padding:70px 150px 80px 250px;
 }
 
 .round {
@@ -51,5 +51,5 @@ p {
 
 figure {
 	float:left;
-	padding: 30px 100px 30px 50px;
+	padding: 70px 100px 70px 50px;
 }
