@@ -1,12 +1,23 @@
 .jumbotron{
-	background: url('https://i.pinimg.com/736x/21/3d/07/213d0753ff4223601f422a61d52e6568--confocal-microscopy-bone-marrow.jpg');
-	background-size: cover;
+  background-size: cover;
 	height: 200px;
 	color: white;
 	text-align: justify;
 	position:fixed;
 	width:100%;
  }
+
+.jumbotron, neuroscience{ 
+  background: url('https://gsbs.uth.edu/global/img/headers/neuro.jpg');
+}
+
+.jumbotron, cellmatrix{ 
+  background: url('https://i.pinimg.com/736x/21/3d/07/213d0753ff4223601f422a61d52e6568--confocal-microscopy-bone-marrow.jpg');
+}
+
+.jumbotron, evolutionary{ 
+  background: url('https://gsbs.uth.edu/global/img/headers/neuro.jpg');
+}
 
 html, body {
   margin: 0px!important;
