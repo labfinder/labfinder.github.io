@@ -123,3 +123,7 @@ hr {
   background-color: black;
   height: 3px
  }
+
+figcaption {
+	padding: 0px 0px 0px 45px;
+}
