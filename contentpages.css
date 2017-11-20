@@ -95,10 +95,6 @@ figure {
 
 }
 
-figure: hover{
-  opacity: 0.6;
-}
-
 .indexlink {
 	text-align: center;
     display: block;

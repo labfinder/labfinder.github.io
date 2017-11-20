@@ -1,6 +1,10 @@
+html body {
+    background-color: #000000;
+}
+
 h2{ 
     font-size: 100px;
-    color: black;
+    color: white;
     font-family: "Calibri";
     padding-top: 100px;
     text-align: center;
@@ -43,7 +47,7 @@ article {
 }
 
 .container {
-  background-color: #ffffff ;
+  background-color: #000000 ;
 }
 
 
