@@ -12,16 +12,6 @@ h1{
       color: #F4ECF7;
 }
 
-body {
-    background-color: #F4ECF7;
- }
-
-
-
-html, body {
-  margin: 0px!important;
-  padding: 0px!important;
-}
 
 ul {
     padding: 0px;
@@ -40,14 +30,11 @@ article {
 }
 
 .item {
-  padding-left: 70px;
-  padding-top: 10px;
-  padding-bottom: 300px;
-  padding-right: 70px;
+  padding: 0px 50px 100px 70px;
 }
 
 .carousel-inner {
-  color: #F4ECF7;
+  color: #ffffff;
   height: 400px;
 }
 
@@ -56,5 +43,7 @@ article {
 }
 
 .container {
-  background-color: white;
+  background-color: #ffffff ;
 }
+
+

@@ -1,4 +1,4 @@
-html{
+html body{
 	background: url(http://paulshorelab.org/wp-content/uploads/IMG_40181.jpg);
 	background-size: cover;
 	background-position: center;
@@ -40,12 +40,25 @@ li {
   padding: 10px;
   bottom: 0;
   margin: 0;
-  height:700px;
+  height: 100%;
+  display: inline-block;
+
 
 }
-.thankyoubutton{
+
+
+.fa {
 	position: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
+
+.fa:hover {
+    opacity: 0.7;
 }
 
 

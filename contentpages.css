@@ -89,11 +89,14 @@ p {
  
 }
 
-
 figure {
 	float:left;
 	padding: 30px 100px 30px 150px;
 
+}
+
+figure: hover{
+  opacity: 0.6;
 }
 
 .indexlink {
