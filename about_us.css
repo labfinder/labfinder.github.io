@@ -5,6 +5,9 @@ html body{
 	background-size: 100%;
 }
 
+.container-fluid {
+    background-color: #000000;
+}
 
 h2{
 	padding-top: 100px;
@@ -20,6 +23,7 @@ h4{
 h5{ 
     text-align: center;
     color: white;
+    padding: 10px;
  }
 
 ul {
@@ -46,19 +50,11 @@ li {
 
 }
 
-
-.fa {
-	position: center;
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+.contact-form{
+	color: black;
+	text-align: center;
+	padding: 25px;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
 
 

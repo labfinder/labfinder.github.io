@@ -16,6 +16,9 @@ h1{
       color: #F4ECF7;
 }
 
+.container-fluid {
+    background-color: #000000;
+}
 
 ul {
     padding: 0px;
@@ -33,7 +36,22 @@ article {
     margin: 0 auto;
 }
 
+p{ 
+ text-align: center;
+ color: white;
+ font-size: 16px;
+ padding: 40px;
+ }
+
+ hr {
+  border: 0;
+  width: 90%;
+  background-color: grey;
+  height: 3px
+ }
+
 .item {
+text-align: center;
   padding: 0px 50px 100px 70px;
 }
 
@@ -50,4 +68,25 @@ article {
   background-color: #000000 ;
 }
 
+.video {
+    text-align: center;
+    padding: 100px;
+}
 
+.fa {
+    position: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.socialmedia{
+    text-align: center;
+}
